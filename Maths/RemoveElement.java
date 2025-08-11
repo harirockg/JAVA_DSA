@@ -16,7 +16,7 @@ public class RemoveElement {
         Scanner sc = new Scanner(System.in);
 
         // Input array size
-        System.out.print("Enter number of elements: ");
+        System.out.print("Enter no of elements: ");
         int n = sc.nextInt();
 
         // Input array elements
