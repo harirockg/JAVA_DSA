@@ -39,7 +39,7 @@ class SortColors {
         SortColors obj = new SortColors();
         obj.sortColors(nums);
         
-        System.out.println("Sorted array: ");
+        System.out.println("Sorted_array: ");
         for (int num : nums) {
             System.out.print(num + " ");
         }
