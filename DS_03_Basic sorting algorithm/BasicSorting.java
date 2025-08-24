@@ -7,6 +7,7 @@ public class BasicSorting {
             for(int j=0;j<arr.length-1-turn; j++){
                 if(arr[j] > arr[j+1]){
                     // swap
+                
                     int temp=arr[j];
                     arr[j]=arr[j+1];
                     arr[j+1]=temp;
@@ -17,19 +18,19 @@ public class BasicSorting {
     }
 
      
-    // public static void printArr(int arr[]){
-    //     for(int i=0;i<arr.length;i++){
-    //         System.out.print(arr[i]+" ");
-    //     }
-    //     System.out.println();
-    // }
-
-    public static void printArr(Integer arr[]){
-        for(Integer i=0;i<arr.length;i++){
+    public static void printArr(int arr[]){
+        for(int i=0;i<arr.length;i++){
             System.out.print(arr[i]+" ");
         }
         System.out.println();
     }
+
+    // public static void printArr(Integer arr[]){
+    //     for(Integer i=0;i<arr.length;i++){
+    //         System.out.print(arr[i]+" ");
+    //     }
+    //     System.out.println();
+    // }
 
 
 
@@ -64,24 +65,26 @@ public class BasicSorting {
         }        
     }
 
-     public static void countingSorted(int[] args) {
-        int largest=Integer.MIN_VALUE;
-        for(int i=0; i<arr.length;i++){
-            largest=Math.max(largest,arr[i]) ,
-        }
-        int count[]=new int[largest+1];
-     }
+    //  public static void countingSorted(int[] args) {
+    //     int largest=Integer.MIN_VALUE;
+    //     for(int i=0; i<arr.length;i++){
+    //         largest=Math.max(largest,arr[i]) ;
+    //     }
+    //     int count[]=new int[largest+1];
+    //  }
 
     public static void main(String[] args) {
-        Integer arr[] ={5,4,1,3,2,6}; // for int we can't take revrse order we have to sift to --->  from int to Integer
-        // bubbleSort(arr);
+        int arr[] ={5,4,1,3,2,6}; 
+        // for int we can't take revrse order we have to sift to --->  from int to Integer
+        //Integer arr[] ={5,4,1,3,2,6};
+        bubbleSort(arr);
         // SelectionSort(arr);
         // insertionSort(arr);
 
         // Arrays.sort(arr);
         // Arrays.sort(arr,0,3);
         // Arrays.sort(arr,Collections.reverseOrder());
-        Arrays.sort(arr,0,3,Collections.reverseOrder());
+        // Arrays.sort(arr,0,3,Collections.reverseOrder());
         printArr(arr);
     }
 }
