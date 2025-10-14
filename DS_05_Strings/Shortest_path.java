@@ -1,5 +1,5 @@
 public class Shortest_path {
-    public static float Shortest_path(String str){
+    public static float shortest_path(String str){
         int x=0,y=0;
         for(int i=0;i<str.length();i++){
             //North
@@ -25,7 +25,7 @@ public class Shortest_path {
     }
     public static void main(String[] args) {
         String str="WNEENESENNN";
-        System.out.println(Shortest_path(str));
+        System.out.println(shortest_path(str));
     }
     
 }
