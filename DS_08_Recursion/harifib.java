@@ -45,6 +45,7 @@ public class harifib {
         // System.out.println(nto(n)));
         // System.out.println(fact(n));
         System.out.println(sumOfn(n));
+        
     }
 
     
