@@ -356,14 +356,9 @@ public class LinkedList {
         //1->2->3->1
         System.out.println(isCycle());
 
-
+        
         removeCycle();
         System.out.println(isCycle());
-
-
-
-
-
 
     }
 }
