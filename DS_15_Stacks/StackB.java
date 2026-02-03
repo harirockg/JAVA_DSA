@@ -9,7 +9,7 @@ public class StackB{
 
         //push
         public static void push(int data) {
-            list.add(data);
+            list.add(data); 
         }
 
         //pop
