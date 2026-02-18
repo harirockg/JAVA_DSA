@@ -1,2 +1,2 @@
-import java.util.Queue;
-// import java.util.LinkedList;
+deque.removeFirst();
+        // System.out.println(deque);
